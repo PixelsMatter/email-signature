@@ -1,0 +1,25 @@
+{
+  "name": "email-signature",
+  "version": "1.0.0",
+  "description": "The PixelsMatter email signature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PixelsMatter/email-signature.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "email",
+    "email-signature"
+  ],
+  "author": "PixelsMatter <hello@pixelsmatter.io> (https://pixelsMatter.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PixelsMatter/email-signature/issues"
+  },
+  "homepage": "https://github.com/PixelsMatter/email-signature#readme"
+}
