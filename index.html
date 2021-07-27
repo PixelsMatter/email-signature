@@ -7,7 +7,7 @@
         <title>PixelsMatter Email Signature</title>
     </head>
     <body>
-        <table>
+        <table class="signature">
             <tbody>
                 <tr>
                     <td>
@@ -18,27 +18,27 @@
                             <tbody>
                                 <tr>
                                     <td>
-                                        <h3>Leon Burman</h3>
+                                        <h3 class="name">Leon Burman</h3>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <h4>Director &amp; Developer</h4>
+                                        <h4 class="job-title">Director &amp; Developer</h4>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="https://pixelsmatter.io">pixelsmatter.io</a>
+                                        <a class="contact" href="https://pixelsmatter.io">pixelsmatter.io</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="mailto:leon@pixelsmatter.io">leon@pixelsmatter.io</a>
+                                        <a class="contact" href="mailto:leon@pixelsmatter.io">leon@pixelsmatter.io</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="tel:+44 7960399032">+44 7960399032</a>
+                                        <a class="contact" href="tel:+44 7960399032">+44 7960399032</a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -47,19 +47,19 @@
                         <table>
                             <tr>
                                 <td>
-                                    <a href="https://facebook.com/pixelsmatter">Facebook</a>
+                                    <a class="social" href="https://facebook.com/pixelsmatter">Facebook</a>
                                 </td>
                                 <td>
-                                    <a href="https://twitter.com/pixelsmatter">Twitter</a>
+                                    <a class="social" href="https://twitter.com/pixelsmatter">Twitter</a>
                                 </td>
                                 <td>
-                                    <a href="https://linkedin.com/company/pixelsmatter">LinkedIn</a>
+                                    <a class="social" href="https://linkedin.com/company/pixelsmatter">LinkedIn</a>
                                 </td>
                                 <td>
-                                    <a href="https://instagram.com/pixelsmatter">Instagram</a>
+                                    <a class="social" href="https://instagram.com/pixelsmatter">Instagram</a>
                                 </td>
                                 <td>
-                                    <a href="https://github.com/pixelsmatter">GitHub</a>
+                                    <a class="social last" href="https://github.com/pixelsmatter">GitHub</a>
                                 </td>
                             </tr>
                         </table>
@@ -71,18 +71,42 @@
 
     <!-- CSS styles - the will be inlined by Gulp -->
     <style type="text/css">
-        table {
+        .signature {
             background: #0D0D0D;
+            font-family: sans-serif;
             padding: 20px;
         }
 
-        table tr td {
+        .name,
+        .job-title,
+        .social,
+        .contact {
             color: #FFFFFF;
             font-family: sans-serif;
+            margin: 0;
         }
 
-        table tr td a {
-            color: #FFFFFF;
+        .name {
+            font-size: 20px;
+        }
+
+        .job-title {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            font-size: 14px;
+        }
+
+        .social {
+            display: inline-block;
+            margin-top: 15px;
+            padding-right: 10px;
+        }
+
+        .social.last {
+            padding-right: 0;
         }
     </style>
 </html>
