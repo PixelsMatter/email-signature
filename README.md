@@ -5,6 +5,8 @@ The PixelsMatter email signature.
 
 **Project Status:** Closed
 
+**Deployment:** N/A
+
 ## Requirements
 
 * [Node v14.17.4](https://nodejs.org/en)
