@@ -1,7 +1,7 @@
 # Email Signature
 
-![GitHub last commit](https://img.shields.io/github/last-commit/PixelsMatter/gatsby-starter?color=%23560bad)
-![GitHub repo size](https://img.shields.io/github/repo-size/PixelsMatter/gatsby-starter?color=%23560bad)
+![GitHub last commit](https://img.shields.io/github/last-commit/PixelsMatter/email-signature?color=%23560bad)
+![GitHub repo size](https://img.shields.io/github/repo-size/PixelsMatter/email-signature?color=%23560bad)
 
 The PixelsMatter email signature.
 
