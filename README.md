@@ -17,7 +17,7 @@ The PixelsMatter email signature.
 
 ## Installation
 
-Run the following from the root directory:
+Run the following from the project root directory:
 
  1. `npm i`
  2. `gulp`
