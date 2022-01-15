@@ -22,6 +22,12 @@ Run the following from the project root directory:
  1. `npm i`
  2. `gulp`
 
+## Scripts
+
+| Command | Description                     |
+| --------  | ----------------------------- |
+| `build`   | Compiles HTML and inlines CSS |
+
 ## Usage
 
 1. Complete the Installation process
