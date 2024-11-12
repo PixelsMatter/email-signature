@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/PixelsMatter/email-signature#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-inline-css": "^4.0.0"
   }
